@@ -50,3 +50,9 @@ In future, we may add other items, such as releases of the V2 NUnit VS adapter a
 ## Governance
 
 A governance document is in preparation.
+
+<hr>
+<div align="right">
+Charlie Poole<br>
+April, 2018
+</div>
