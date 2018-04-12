@@ -12,7 +12,7 @@ With the release of NUnit 3.0, the __NUnit Project__ archived the code for NUnit
 
 For various reasons, usually external to the software, some users must continue to use NUnit 2.6.4, the last release of V2, in spite of the advantages of the NUnit 3 platform. In some cases, this has to do with legacy software used by the applications they are testing. In other cases, the reasons for sticking with V2 are organizational in nature. In a few cases, problems with the newer releases affect them.
 
-In order to move ahead, the __NUnit Project__ team, of which I remain a part, had to cut the cord and focus on the new NUnit releases. This organization and it's projects are intended to give some relief to users who most continue to work with NUnit V2.
+In order to move ahead, the __NUnit Project__ team, of which I remain a part, had to cut the cord and focus on the new NUnit releases. This project and its included repositories are intended to give some relief to users who must continue to work with NUnit V2.
 
 ## Vision
 
@@ -41,15 +41,19 @@ We will also provide guidance in how to convert projects to NUnit 3 and will sup
 
    _Note: The NUnit 2.6.5 release is almost entirely made up of features of this type._
 
-### NUnit Programs Supported
+## Specific Projects
 
-Initially, the NUnit Legacy project will provide point releases of NUnit V2, consisting of the framework, core and runners.
+Initially, the NUnit Legacy project will provide point releases of NUnit V2, consisting of the framework, core and runners. See that project's repository for a roadmap.
 
-In future, we may add other items, such as releases of the V2 NUnit VS adapter and the V2 framework driver for use under NUnit 3.
+In future, we may add other projects, such as the V2 NUnit VS adapter and the V2 framework driver for use under NUnit 3.
 
 ## Governance
 
-A governance document is in preparation.
+Right now, as the sole contributor to the projects here, I (Charlie) am the Benevolent Dictator and we don't need much documentation. As a starting point, I have adapted our [[governance]] document from the [xunit.net project](https://xunit.github.io/governance). We will modify this document as needed, whenever the need arises.
+
+## Project Lifetime
+
+I am anticipating that this project will only remain active for a year or two, but will track the level of participation and continue so long as there's a need for it.
 
 <hr>
 <div align="right">
